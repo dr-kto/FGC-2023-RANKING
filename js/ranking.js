@@ -57,7 +57,7 @@ async function getData()
         .then(res => res.text())
         .then(rep =>{
             data = JSON.parse(rep.substr(47).slice(0,-2));
-            output.innerHTML='<thead><tr><th>Rank</th><th>Teams</th><th>Highest Score</th></tr></thead>';
+            output.innerHTML='<thead><tr><th>RANK</th><th>TEAMS</th><th>SCORE</th><th>PLAYED MATCH COUNT</th></tr></thead>';
         });
 
         
